@@ -93,7 +93,6 @@ public class Main {
             Student s = entry.getValue();
             System.out.printf("%d -> %s (%.1f%%)%n", s.roll, s.name, s.percentage);
         }
-
         sc.close();
     }
 }
